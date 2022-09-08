@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'LGSmHa';
+    src: url('../font/LGSmHaB.ttf');
+}
+
+@font-face {
+    font-family: 'LGSmHa';
+    src: url('../font/LGSmHaB.ttf');
+}
+
+@font-face {
+    font-family: 'LGSmHa';
+    src: url('../font/LGSmHaB.ttf');
+}
+
+@font-face {
+    font-family: 'LGSmHa';
+    src: url('../font/LGSmHaB.ttf');
+}
+
+* {
+    font-family: 'LGSmHa', sans-serif;
+}
+
+html,
+body {
+    background-color: #ccdebc;
+
+    margin: 0;
+    padding: 0;
+}

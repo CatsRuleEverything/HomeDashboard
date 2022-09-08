@@ -1,0 +1,100 @@
+.wrap {
+    min-height: 90vh;
+    position: relative;
+    width: 100%;
+}
+
+.section {
+    padding-bottom: 110px;
+}
+
+.nav {
+
+}
+
+.footer {
+    width: 100%;
+    height: 110px;
+
+    bottom: 0px;
+    position: absolute;
+
+    text-align: center;
+}
+
+.info-container {
+    /* width: 100%;
+    height: 90%; */
+    margin-top: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.info-box {
+    width: 30vh;
+    height: 75vh;
+
+    margin: auto;
+
+    border-radius: 50px;
+    box-shadow: 3px 7px 11px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fdf0be;
+}
+
+.pet-name {
+    width: 50%;
+
+    display: block;
+    position: relative;
+
+    left: 55%;
+}
+
+.ptag {
+    margin: 2vh;
+    font-size: 3vh;
+}
+
+.pet-image {
+    width: 100%;
+
+    text-align: center;
+
+    overflow: hidden;
+}
+
+.pet-image-inner {
+    width: 80%;
+
+    border-radius: 50%;
+}
+
+.time {
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.water-status {
+    width: 44%;
+
+    display: block;
+    position: relative;
+
+    right: 0%;
+    left: 50%;
+    top: 10%;
+}
+
+.feed-status {
+    width: 44%;
+
+    display: block;
+    position: relative;
+
+    right: 4%;
+    left: 4%;
+    top: 4%;
+}

@@ -1,26 +1,25 @@
-import kind from '@enact/core/kind';
-import ThemeDecorator from '@enact/sandstone/ThemeDecorator';
-import Panels from '@enact/sandstone/Panels';
+import { HashRouter as Router, Redirect, Route, Switch } from "react-router-dom";
+import { useState } from "react";
 
-import MainPanel from '../views/MainPanel';
+import Home from '../views/Home/Home';
 
-import './attachErrorHandler';
+const App = function () {
+	// const [name, setName] = useState();
 
-import css from './App.module.less';
+	return (
+		<div>
+			<Router>
+				<Switch>
+					<Route exact>
+						<Home />
+					</Route>
 
-const App = kind({
-	name: 'App',
-
-	styles: {
-		css,
-		className: 'app'
-	},
-
-	render: (props) => (
-		<Panels {...props}>
-			<MainPanel />
-		</Panels>
+					<Redirect to="/" />
+				</Switch>
+			</Router>
+		</div>
 	)
-});
+}
 
-export default ThemeDecorator(App);
+export default App;
+export {App};
