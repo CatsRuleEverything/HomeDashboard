@@ -19,6 +19,7 @@ my-app/
       App.js
       App.less
       package.json
+    assets/
     components/
     views/
       MainPanel.js
