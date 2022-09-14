@@ -6,6 +6,52 @@ _sample image_
 - `react`
 - `enact`
 
+# 개발환경 설정
+
+## 1. enact cli 설치하기
+
+```bash
+npm install -g @enact/cli
+```
+
+## 2. webOS template 설치하기
+
+```bash
+enact template install @enact/template-webostv
+```
+
+# 참고 사항
+
+## API library - sandstone Library
+sandstone library에는 많은 유용한 components가 존재합니다. 그 중에서 몇 가지를 소개합니다.
+
+Enact에선 component를 적용한 효과를 미리 볼 수 있도록 sandstone sample을 제공합니다.이를 참고하여 필요한 기능을 확인할 수 있습니다. 
+
+[샌드스톤 도큐먼트](https://enactjs.com/sampler/sandstone/?path=/story/about-a-tour-of-sampler--a-tour-of-sampler)
+
+_버튼 사용 예시_
+
+```javascript
+import Button from '@enact/sandstone/Button';
+
+<Button>click me</Button>
+```
+
+_드롭다운 사용 예시_
+
+```javascript
+import Dropdown from '@enact/sandstone/Dropdown';
+
+<Dropdown
+  inline
+  title="Options"
+>
+  {['Option 1', 'Option 2', 'Option 3', 'Option 4', 'Option 5']}
+</Dropdown>
+```
+
+# enact 관련
+
 ## Available Scripts
 
 In the project directory, you can run:
