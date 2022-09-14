@@ -6,7 +6,7 @@ _sample image_
 - `react`
 - `enact`
 
-# 개발환경 설정
+# 개발환경 설정 - git clone을 하고나서
 
 ## 1. enact cli 설치하기
 
@@ -18,6 +18,12 @@ npm install -g @enact/cli
 
 ```bash
 enact template install @enact/template-webostv
+```
+
+## 3. 개발을 위해 node module 설치
+
+```bash
+npm install
 ```
 
 # 참고 사항
