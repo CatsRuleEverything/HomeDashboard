@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
+import Button from 'react-bootstrap/Button';
+
 
 import "./Home.css"
 import "../../../resources/css/style.css"
@@ -74,13 +76,14 @@ const Home = () => {
 
     return(
         <div className="wrap">
+            <Button variant="outline-primary" onClick={() => {window.location.href="/video"}}>Video</Button>
+
             <div className="section">
                 <div className="info-container">
                     <Pet_info pets_idx={0}/>
                     <Pet_info pets_idx={1}/>
                     <Pet_info pets_idx={2}/>
                 </div>
-                
             </div>
             <div className="footer">
                 <div className="time">8:17 pm<br/>2022 / 08 / 17</div>

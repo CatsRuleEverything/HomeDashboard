@@ -3,8 +3,12 @@ import {createRoot, hydrateRoot} from 'react-dom/client';
 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from "react-router-dom";
+import React from 'react';
 
-const appElement = (<App />);
+const appElement = (
+	<App />
+);
 
 // In a browser environment, render instead of exporting
 if (typeof window !== 'undefined') {
