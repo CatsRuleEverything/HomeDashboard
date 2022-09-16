@@ -1,7 +1,7 @@
+/* eslint-disable */
 import { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
-
 
 import "./Home.css"
 import "../../../resources/css/style.css"
@@ -17,6 +17,12 @@ import sample_profile_image from '../../../resources/prototype.png';
 
 
 const Home = () => {
+    const history = useHistory();
+
+    const onGotoVideo = () => {
+        history.push("/video");
+    };
+
     /* sample pet data */
     var p1 = ['마루', '0', '2'];
     var p2 = ['초코', '3', '2'];
@@ -76,7 +82,9 @@ const Home = () => {
 
     return(
         <div className="wrap">
-            <Button variant="outline-primary" onClick={() => {window.location.href="/video"}}>Video</Button>
+            <button onClick={onGotoVideo}>
+                Video
+            </button>
 
             <div className="section">
                 <div className="info-container">
