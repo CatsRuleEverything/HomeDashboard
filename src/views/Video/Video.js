@@ -5,9 +5,6 @@ import { useHistory } from "react-router-dom";
 import "./Video.css"
 import "../../../resources/css/style.css"
 
-
-//import foot_icon_0 from '../../../resources/foot_icon/foot_0.png';
-
 const Video = () => {
     const history = useHistory();
 

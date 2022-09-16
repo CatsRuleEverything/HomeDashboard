@@ -1,7 +1,6 @@
 /* eslint-disable */
 import { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
-import Button from 'react-bootstrap/Button';
 
 import "./Home.css"
 import "../../../resources/css/style.css"
@@ -13,8 +12,6 @@ import foot_icon_3 from '../../../resources/foot_icon/foot_3.png';
 import foot_icon_4 from '../../../resources/foot_icon/foot_4.png';
 
 import sample_profile_image from '../../../resources/prototype.png';
-
-
 
 const Home = () => {
     const history = useHistory();
