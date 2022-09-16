@@ -10,6 +10,11 @@ import foot_icon_1 from '../../../resources/foot_icon/foot_1.png';
 import foot_icon_2 from '../../../resources/foot_icon/foot_2.png';
 import foot_icon_3 from '../../../resources/foot_icon/foot_3.png';
 import foot_icon_4 from '../../../resources/foot_icon/foot_4.png';
+import rfoot_icon_0 from '../../../resources/foot_icon/rfoot_0.png';
+import rfoot_icon_1 from '../../../resources/foot_icon/rfoot_1.png';
+import rfoot_icon_2 from '../../../resources/foot_icon/rfoot_2.png';
+import rfoot_icon_3 from '../../../resources/foot_icon/rfoot_3.png';
+import rfoot_icon_4 from '../../../resources/foot_icon/rfoot_4.png';
 
 import sample_profile_image from '../../../resources/prototype.png';
 
