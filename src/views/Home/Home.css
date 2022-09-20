@@ -5,16 +5,12 @@
 }
 
 .section {
-    padding-bottom: 110px;
-}
-
-.nav {
-
+    padding-bottom: 90px;
 }
 
 .footer {
     width: 100%;
-    height: 110px;
+    height: 90px;
 
     bottom: 0px;
     position: absolute;
@@ -35,7 +31,7 @@
 
 .info-box {
     width: 50vh;
-    height: 75vh;
+    height: 79vh;
 
     margin: auto;
 
@@ -55,7 +51,7 @@
 
 .ptag {
     margin: 2vh;
-    font-size: 3vh;
+    font-size: 4vh;
 }
 
 .pet-image {
@@ -67,7 +63,7 @@
 }
 
 .pet-image-inner {
-    width: 80%;
+    width: 70%;
 
     border-radius: 50%;
 }
@@ -78,23 +74,50 @@
 }
 
 .water-status {
-    width: 44%;
+    width: 33%;
 
     display: block;
     position: relative;
 
     right: 0%;
-    left: 50%;
-    top: 10%;
+    left: 60%;
+    top: 0%;
 }
 
 .feed-status {
-    width: 44%;
+    width: 33%;
 
     display: block;
     position: relative;
 
     right: 4%;
     left: 4%;
-    top: 4%;
+    top: 0%;
+}
+
+.button-container {
+    position: fixed;
+
+    bottom: 5vh;
+    right: 5vh;
+}
+
+.add-button {
+    position: relative;
+
+    padding: 3vh;
+    margin: 2vh;
+
+    /* bottom: 3vh;
+    right: 5vh; */
+}
+
+.video-button {
+    position: relative;
+
+    padding: 3vh;
+    margin: 2vh;
+
+    /* bottom: 3vh;
+    right: 10vh; */
 }

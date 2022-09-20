@@ -10,7 +10,7 @@ import foot_icon_1 from '../../../resources/foot_icon/foot_1.png';
 import foot_icon_2 from '../../../resources/foot_icon/foot_2.png';
 import foot_icon_3 from '../../../resources/foot_icon/foot_3.png';
 import foot_icon_4 from '../../../resources/foot_icon/foot_4.png';
-import rfoot_icon_0 from '../../../resources/foot_icon/rfoot_0.png';
+// import rfoot_icon_0 from '../../../resources/foot_icon/rfoot_0.png';
 import rfoot_icon_1 from '../../../resources/foot_icon/rfoot_1.png';
 import rfoot_icon_2 from '../../../resources/foot_icon/rfoot_2.png';
 import rfoot_icon_3 from '../../../resources/foot_icon/rfoot_3.png';
@@ -23,6 +23,10 @@ const Home = () => {
 
     const onGotoVideo = () => {
         history.push("/video");
+    };
+
+    const onGotoAdd = () => {
+        history.push("/add");
     };
 
     /* sample pet data */
@@ -84,10 +88,6 @@ const Home = () => {
 
     return(
         <div className="wrap">
-            <button onClick={onGotoVideo}>
-                Video
-            </button>
-
             <div className="section">
                 <div className="info-container">
                     <Pet_info pets_idx={0}/>
@@ -97,6 +97,14 @@ const Home = () => {
             </div>
             <div className="footer">
                 <div className="time">8:17 pm<br/>2022 / 08 / 17</div>
+            </div>
+            <div className="button-container">
+                <button className="video-button" onClick={onGotoVideo}>
+                    Video
+                </button>
+                <button className="add-button" onClick={onGotoAdd}>
+                    Add
+                </button>
             </div>
         </div>
     );

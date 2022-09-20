@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 
-import "./Video.css"
+import "./Add.css"
 import "../../../resources/css/style.css"
 
 const Video = () => {
@@ -16,7 +16,9 @@ const Video = () => {
         <div className="wrap">
             <div className="container">
                 <div className="homebtn">
-                    
+                    <button onClick={onGotoHome}>
+                        Home
+                    </button>
                 </div>
             </div>
         </div>
