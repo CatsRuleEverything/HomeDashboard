@@ -17,6 +17,8 @@ import rfoot_icon_3 from '../../../resources/foot_icon/rfoot_3.png';
 import rfoot_icon_4 from '../../../resources/foot_icon/rfoot_4.png';
 
 import sample_profile_image from '../../../resources/prototype.png';
+import addBtn from '../../../resources/home_assets/add2.png';
+import videoBtn from '../../../resources/home_assets/camera.png';
 
 const Home = () => {
     const history = useHistory();
@@ -93,19 +95,23 @@ const Home = () => {
                     <Pet_info pets_idx={0}/>
                     <Pet_info pets_idx={1}/>
                     <Pet_info pets_idx={2}/>
+                    <div className="footer"></div>
+                </div>
+                
+               
+            </div>
+            <div className="bottom-section">
+                <div className="time">8:17 pm<br/>2022 / 08 / 17</div>
+                <div className="button-container">
+                    <div className="add-button" onClick={onGotoAdd}>
+                        <img src={addBtn} width="50px" height="30px"/>
+                    </div>
+                    <div className="video-button" onClick={onGotoVideo}>
+                        <img src={videoBtn} widht="50px" height="30px"/>
+                    </div>
                 </div>
             </div>
-            <div className="footer">
-                <div className="time">8:17 pm<br/>2022 / 08 / 17</div>
-            </div>
-            <div className="button-container">
-                <button className="video-button" onClick={onGotoVideo}>
-                    Video
-                </button>
-                <button className="add-button" onClick={onGotoAdd}>
-                    Add
-                </button>
-            </div>
+            
         </div>
     );
 }
