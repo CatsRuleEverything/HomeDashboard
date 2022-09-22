@@ -13,11 +13,12 @@ const Video = () => {
     };
 
     return(
-        <div className="wrap">
-            <div className="container">
-                <div className="homebtn">
-                    
-                </div>
+        <div className="wrap-video">
+            <div className="video-frame">
+                <div className="video"></div>
+            </div>
+            <div className="home-button" onClick={onGotoHome}>
+                    {/* <img src={addBtn} width="50px" height="30px"/> */}
             </div>
         </div>
     );

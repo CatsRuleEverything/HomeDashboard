@@ -104,13 +104,13 @@
 
 .add-button {
     float:left;
-    position: relative;
+    position: fixed;
 
     padding: 3vh;
     margin: 2vh;
 
-    /* bottom: 3vh;
-    right: 5vh; */
+    bottom: 3vh;
+    right: 5vh;
 }
 
 .video-button {
@@ -120,8 +120,11 @@
     padding: 3vh;
     margin: 2vh;
 
-    /* bottom: 3vh;
-    right: 10vh; */
+    bottom: 3vh;
+    right: 10vh;
 }
 
+.bottom-container {
+    position: fixed;
+}
 
