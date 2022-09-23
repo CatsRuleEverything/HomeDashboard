@@ -71,6 +71,7 @@
 .time {
     font-size: 3vh;
     font-weight: bold;
+    margin-left: 10vh;
 }
 
 .water-status {
@@ -97,34 +98,35 @@
 
 .button-container {
     position: fixed;
-
-    bottom: 3vh;
-    right: 3vh;
+    display: flex;
+    justify-content: space-between;
+    bottom: 5vh;
+    right: 10vh;
 }
 
 .add-button {
-    float:left;
-    position: fixed;
+    /* float:left;
+    position: fixed; */
 
-    padding: 3vh;
-    margin: 2vh;
-
-    bottom: 3vh;
-    right: 5vh;
+    /* padding: 3vh;
+    margin: 2vh; */
+/* 
+    bottom: 5vh;
+    right: 10vh; */
 }
 
 .video-button {
-    float:right;
+    /* float:right;
     position: relative;
 
     padding: 3vh;
     margin: 2vh;
 
     bottom: 3vh;
-    right: 10vh;
+    right: 10vh; */
 }
 
-.bottom-container {
+.bottom-section {
     position: fixed;
 }
 
