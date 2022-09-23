@@ -31,6 +31,10 @@ const Home = () => {
         history.push("/add");
     };
 
+    const onGotoInfo = () => {
+        history.push("/info");
+    }
+
     /* sample pet data */
     var p1 = ['마루', '0', '2'];
     var p2 = ['초코', '3', '2'];
@@ -57,7 +61,7 @@ const Home = () => {
         if (Object.keys(pets[pets_idx]).length <= 0) return;
 
         return (
-            <div className="info-box" id={"pet" + {pets_idx}}>
+            <div className="info-box" id={"pet" + {pets_idx}} onClick={onGotoInfo}>
                 <div className="pet-name">
                     <p className="ptag">
                         {pets[pets_idx]['name']}
