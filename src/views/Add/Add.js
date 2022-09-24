@@ -34,12 +34,8 @@ const Video = () => {
             <div className="add-top-section">
                 <div className="add-title">반려동물 추가</div>
                 <div className="add-button-container">
-                    <div className="cancel-button" onClick={onGotoHome}>
-                        <img src={cancelBtn} width="75px" height="45px"/>
-                    </div>
-                    <div className="complete-button" onClick={onGotoHome}>
-                        <img src={completeBtn} width="75px" height="45px"/>
-                    </div>
+                    <img src={cancelBtn} className="cancel-button" onClick={onGotoHome}/>
+                    <img src={completeBtn} className="complete-button" onClick={onGotoHome}/>
                 </div>
             </div>
             <div className="add-content-section">

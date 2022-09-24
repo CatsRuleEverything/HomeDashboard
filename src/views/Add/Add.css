@@ -1,31 +1,60 @@
 /* 반려동물 추가 */
 .add-title{
-
+    position: fixed;
+    top: 10vh;
+    left: 5.5vw;
+    font-size: 7vh;
+    color:hsl(0, 0%, 100%);
+    /* text-shadow */
 }
 /*취소 완료 버튼*/
 .add-button-container{
-
+    position: fixed;
+    right: 5.5vw;
+    top: 10vh;
+    display: button;
 }
 .cancel-button{
-
+    width: 8vw;
+    height: 8vh;
 }
 .complete-button{
-
+    margin-left: 1vw;
+    width: 8vw;
+    height: 8vh;
 }
 /*동물 정보 입력 섹션*/
 .add-content-section{
     width: 90vw;
-    height: 70vh;
+    height: 60vh;
 
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
 
     border-radius: 50px;
     box-shadow: 3px 7px 11px 0 rgba(0,0,0,0.16);
     background-color: #fdf0be;
+
+    display: flex;
+
+}
+.add-picture{
+    postion: absolute;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 6vw;
 }
 /*동물 정보*/
 .add-info{
-
+    position: relative;
+    left: 10vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: space-between;
+    height: 40vh;
 }
 .name{
 
