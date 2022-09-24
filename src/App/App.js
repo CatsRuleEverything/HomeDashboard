@@ -12,16 +12,6 @@ const App = function () {
 
 	return (
 		<div className="App">
-			{/* <Router>
-				<Routes>
-					<Route path="/">
-						<Home />
-					</Route>
-					<Route path="/video">
-						<Video />
-					</Route>
-				</Routes>
-			</Router> */}
 			<Router>
 				<Switch>
 					<Route path="/" exact>

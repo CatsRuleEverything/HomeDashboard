@@ -20,7 +20,7 @@ const Video = () => {
                 <div className="video"></div> {/*여기에 비디오 넣기*/}
             </div>
             <div className="home-button" onClick={onGotoHome}>
-                <img src={homeBtn} width="80px" height="45px"/>
+                <img src={homeBtn} width="75px" height="45px"/>
             </div>
         </div>
     );
