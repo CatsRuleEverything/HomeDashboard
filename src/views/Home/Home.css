@@ -101,10 +101,15 @@
     display: flex;
     justify-content: space-between;
     bottom: 5vh;
-    right: 10vh;
+    right: 20vh;
+    width: 10vh;
+    height: 5vh;
 }
 
 .add-button {
+    padding-left: 3vw;
+    width: 7vh;
+    height:3vh;
     /* float:left;
     position: fixed; */
 
@@ -116,6 +121,7 @@
 }
 
 .video-button {
+    padding-left: 3vh;
     /* float:right;
     position: relative;
 
