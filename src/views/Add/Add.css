@@ -1,7 +1,11 @@
+.add-top-section{
+    position: relative;
+    margin-top: 8%;
+}
 /* 반려동물 추가 */
 .add-title{
-    position: fixed;
-    top: 10vh;
+    position: absolute;
+    /* top: 5vh; */
     left: 5.5vw;
     font-size: 7vh;
     color:hsl(0, 0%, 100%);
@@ -9,28 +13,26 @@
 }
 /*취소 완료 버튼*/
 .add-button-container{
-    position: fixed;
+    position: absolute;
     right: 5.5vw;
-    top: 10vh;
+    /* top: 5vh; */
     display: button;
 }
 .cancel-button{
     width: 8vw;
-    height: 8vh;
 }
 .complete-button{
     margin-left: 1vw;
     width: 8vw;
-    height: 8vh;
 }
 /*동물 정보 입력 섹션*/
 .add-content-section{
+    position: absolute;
     width: 90vw;
     height: 60vh;
 
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20vh;
+    left: 5%;
+    top: 30%;
 
     border-radius: 50px;
     box-shadow: 3px 7px 11px 0 rgba(0,0,0,0.16);
@@ -40,11 +42,14 @@
 
 }
 .add-picture{
-    postion: absolute;
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 6vw;
 }
+.add-picture-img{
+    width: 45vh;
+}
+
 /*동물 정보*/
 .add-info{
     position: relative;
@@ -61,43 +66,70 @@
 }
 .name-img{
     position: absolute;
+    width: 25.5vw;
 }
 .name-input{
     position: absolute;
+    left: 5.5vw;
+    top: 0.7vh;
+    width: 18vw;
+    height: 3vh;
+    /* left: 255px;
+    top: 40px; */
 }
 .kind{
     position: relative;
 }
 .kind-img{
     position: absolute;
+    width: 25.5vw;
 }
 .kind-input{
     position: absolute;
+    left: 5.5vw;
+    top: 0.7vh;
+    width: 18vw;
+    height: 3vh;
 }
 .gender{
     position: relative;
 }
 .gender-img{
     position: absolute;
+    width: 25.5vw;
 }
 .gender-input{
     position: absolute;
+    left: 5.5vw;
+    top: 0.7vh;
+    width: 18vw;
+    height: 3vh;
 }
 .age{
     position: relative;
 }
 .age-img{
     position: absolute;
+    width: 25.5vw;
 }
 .age-input{
     position: absolute;
+    left: 5.5vw;
+    top: 0.7vh;
+    width: 18vw;
+    height: 3vh;
 }
 .weight{
     position: relative;
 }
 .weight-img{
     position: absolute;
+    width: 25.5vw;
 }
 .weight-input{
     position: absolute;
+    left: 5.5vw;
+    top: 0.7vh;
+    width: 18vw;
+    height: 3vh;
 }

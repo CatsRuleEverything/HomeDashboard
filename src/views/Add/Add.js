@@ -30,7 +30,7 @@ const Video = () => {
     const [info, setInfo] = useState({name:"", kind:"", gender:"", age:"", weight:""})
 
     return(
-        <div className="wrap">
+        <div className="add-wrap">
             <div className="add-top-section">
                 <div className="add-title">반려동물 추가</div>
                 <div className="add-button-container">
@@ -40,27 +40,27 @@ const Video = () => {
             </div>
             <div className="add-content-section">
                 <div className="add-picture"> {/*이거 클릭하면 사진 선택창..*/}
-                    <img src={addPicBtn} width="380vw" height="380vh"/>
+                    <img className="add-picture-img" src={addPicBtn}/>
                 </div>
                 <div className="add-info">
                     <div className="name">
-                        <img className="name-img" src={name} width="370vw" height="44vh"/>
+                        <img className="name-img" src={name}/>
                         <input className = "name-input"></input>  
                     </div>
                     <div className="kind">
-                        <img className="kind-img" src={kind} width="370vw" height="44vh"/>
+                        <img className="kind-img" src={kind}/>
                         <input className = "kind-input"></input>  
                     </div>
                     <div className="gender">
-                        <img src={gender} width="370vw" height="44vh"/>
+                        <img className="gender-img" src={gender}/>
                         <input className = "gender-input"></input>  
                     </div>
                     <div className="age">
-                        <img src={age} width="370vw" height="44vh"/>
+                        <img className="age-img" src={age}/>
                         <input className = "age-input"></input>  
                     </div>
                     <div className="weight">
-                        <img src={weight} width="370vw" height="44vh"/>
+                        <img className="weight-img" src={weight}/>
                         <input className = "weight-input"></input>  
                     </div>
                 </div>
