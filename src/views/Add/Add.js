@@ -18,7 +18,7 @@ import weight from "../../../resources/home_assets/add_pet_weight.png";
 
 
 const Video = () => {
-    //let [popup, setPopup] = useState(false);
+    //let [popup, setPopup] = useState(false); // 나중에 팝업창도 넣으면 좋을듯
 
     const history = useHistory();
 
@@ -44,19 +44,24 @@ const Video = () => {
                 </div>
                 <div className="add-info">
                     <div className="name">
-                        <img src={name} width="370vw" height="44vh"/>
+                        <img className="name-img" src={name} width="370vw" height="44vh"/>
+                        <input className = "name-input"></input>  
                     </div>
                     <div className="kind">
-                        <img src={kind} width="370vw" height="44vh"/>
+                        <img className="kind-img" src={kind} width="370vw" height="44vh"/>
+                        <input className = "kind-input"></input>  
                     </div>
                     <div className="gender">
                         <img src={gender} width="370vw" height="44vh"/>
+                        <input className = "gender-input"></input>  
                     </div>
                     <div className="age">
                         <img src={age} width="370vw" height="44vh"/>
+                        <input className = "age-input"></input>  
                     </div>
                     <div className="weight">
                         <img src={weight} width="370vw" height="44vh"/>
+                        <input className = "weight-input"></input>  
                     </div>
                 </div>
             </div>
