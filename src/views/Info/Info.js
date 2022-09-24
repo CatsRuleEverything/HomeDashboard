@@ -38,7 +38,7 @@ const Info = () => {
                 <img className="bg" src={BG} />
             </div>
             <div className="home-section">
-                <img src={homeBtn} width="100px" onClick={onGotoHome} />
+                <img src={homeBtn} width="100vw" onClick={onGotoHome} />
             </div>
         </div>
     );
