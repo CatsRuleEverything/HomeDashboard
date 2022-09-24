@@ -57,17 +57,47 @@
     height: 40vh;
 }
 .name{
-
+    position: relative;
+}
+.name-img{
+    position: absolute;
+}
+.name-input{
+    position: absolute;
 }
 .kind{
-
+    position: relative;
+}
+.kind-img{
+    position: absolute;
+}
+.kind-input{
+    position: absolute;
 }
 .gender{
-
+    position: relative;
+}
+.gender-img{
+    position: absolute;
+}
+.gender-input{
+    position: absolute;
 }
 .age{
-
+    position: relative;
+}
+.age-img{
+    position: absolute;
+}
+.age-input{
+    position: absolute;
 }
 .weight{
-
+    position: relative;
+}
+.weight-img{
+    position: absolute;
+}
+.weight-input{
+    position: absolute;
 }
