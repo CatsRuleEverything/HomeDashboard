@@ -27,21 +27,27 @@
 .info-prof {
     position: absolute;
     text-align: center;
+    justify-content: center;
 
     width: 15vw;
 
-    top: 3vh;
-    left: 6vw;
+    top: 5vh;
+    left: 1vw;
 }
 
 .prof_bg {
     position: absolute;
+
+    left: 50%;
 
     width: 80%;
 }
 
 .prof {
     position: absolute;
+
+    left: 55%;
+    bottom: -450px;
 
     border-radius: 50%;
 
@@ -60,11 +66,19 @@
 }
 
 .bio-info {
+    margin-top: 1%;
+
     position: absolute;
-    left: 30%;
+    left: 25%;
+
+    font-size: 3vw;
 }
 
 .title-info {
+    margin-top: 1%;
+
     position: absolute;
-    left: 60%;
+    right: 10%;
+
+    font-size: 3vw;
 }
