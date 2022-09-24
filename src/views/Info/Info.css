@@ -1,0 +1,26 @@
+.wrap-info {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.info-frame {
+    margin: auto;
+
+    width: 50vh;
+    height: 83vh;
+
+    margin-top: 100px;
+
+    border-radius: 50px;
+    box-shadow: 3px 7px 11px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fdf0be;
+}
+
+.home-section {
+    position: fixed;
+
+    bottom: 3vh;
+    right: 3vw;
+}
