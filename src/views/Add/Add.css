@@ -1,0 +1,44 @@
+/* 반려동물 추가 */
+.add-title{
+
+}
+/*취소 완료 버튼*/
+.add-button-container{
+
+}
+.cancel-button{
+
+}
+.complete-button{
+
+}
+/*동물 정보 입력 섹션*/
+.add-content-section{
+    width: 90vw;
+    height: 70vh;
+
+    margin: auto;
+
+    border-radius: 50px;
+    box-shadow: 3px 7px 11px 0 rgba(0,0,0,0.16);
+    background-color: #fdf0be;
+}
+/*동물 정보*/
+.add-info{
+
+}
+.name{
+
+}
+.kind{
+
+}
+.gender{
+
+}
+.age{
+
+}
+.weight{
+
+}
