@@ -5,6 +5,9 @@ import { useHistory } from "react-router-dom";
 import "./Info.css"
 import "../../../resources/css/style.css"
 
+import BG from '../../../resources/home_assets/webOS_BG.png';
+import homeBtn from '../../../resources/home_assets/home_button_eng.png';
+
 const Info = () => {
     const history = useHistory();
 
@@ -14,11 +17,11 @@ const Info = () => {
 
     return(
         <div className="wrap-info">
-            <div className="info-frame">
-                <div className="info"></div>
+            <div className="info-frame" style={{background: BG}}>
+                
             </div>
-            <div className="home-button" onClick={onGotoHome}>
-                    <img src={addBtn} width="50px" height="30px"/>
+            <div className="home-section">
+                <img src={homeBtn} width="100px" onClick={onGotoHome} />
             </div>
         </div>
     );

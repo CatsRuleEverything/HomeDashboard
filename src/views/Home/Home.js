@@ -101,8 +101,6 @@ const Home = () => {
                     <Pet_info pets_idx={2}/>
                     <div className="footer"></div>
                 </div>
-                
-               
             </div>
             <div className="bottom-section">
                 <div className="time">8:17 pm<br/>2022 / 08 / 17</div>
@@ -115,7 +113,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            
         </div>
     );
 }
