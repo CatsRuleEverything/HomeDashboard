@@ -108,10 +108,10 @@ const Home = () => {
                 <div className="time">8:17 pm<br/>2022 / 08 / 17</div>
                 <div className="button-container">
                     <div className="add-button" onClick={onGotoAdd}>
-                        <img src={addBtn} width="50px" height="30px"/>
+                        <img src={addBtn} width="70px" height="40px"/>
                     </div>
                     <div className="video-button" onClick={onGotoVideo}>
-                        <img src={videoBtn} widht="50px" height="30px"/>
+                        <img src={videoBtn} widht="70px" height="40px"/>
                     </div>
                 </div>
             </div>
