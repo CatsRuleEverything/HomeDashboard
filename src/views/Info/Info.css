@@ -8,14 +8,44 @@
 .info-frame {
     margin: auto;
 
-    width: 50vh;
-    height: 83vh;
+    width: 85vw;
+    height: 85vh;
 
     margin-top: 100px;
 
-    border-radius: 50px;
+    /* border-radius: 50px; */
     box-shadow: 3px 7px 11px 0 rgba(0, 0, 0, 0.16);
     background-color: #fdf0be;
+}
+
+.bg {
+    width: 75vw;
+    height: 65vh;
+    margin-top: 12%;
+}
+
+.info-prof {
+    position: absolute;
+    text-align: center;
+
+    width: 15vw;
+
+    top: 3vh;
+    left: 6vw;
+}
+
+.prof_bg {
+    position: absolute;
+
+    width: 80%;
+}
+
+.prof {
+    position: absolute;
+
+    border-radius: 50%;
+
+    width: 70%;
 }
 
 .home-section {
@@ -23,4 +53,18 @@
 
     bottom: 3vh;
     right: 3vw;
+}
+
+.info-top {
+    position: relative;
+}
+
+.bio-info {
+    position: absolute;
+    left: 30%;
+}
+
+.title-info {
+    position: absolute;
+    left: 60%;
 }
